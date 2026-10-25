@@ -1,0 +1,23 @@
+# ---- Computer vision (face detection, tracking, head pose) ----
+opencv-python>=4.8.0
+# 0.10.14+ provides the Tasks API (FaceDetector / FaceLandmarker) used here.
+mediapipe>=0.10.14,<0.10.99
+numpy>=1.24.0
+
+# ---- Audio processing (noise level, speech activity) ----
+librosa>=0.10.1
+soundfile>=0.12.1
+scipy>=1.11.0
+sounddevice>=0.4.6
+
+# ---- Data processing, analytics & reports ----
+pandas>=2.0.0
+reportlab>=4.2.0
+
+# ---- Dashboard ----
+streamlit>=1.28.0
+plotly>=5.18.0
+
+# ---- Utilities & testing ----
+python-dateutil>=2.8.2
+pytest>=7.4.0

@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+data/sessions/*
+!data/sessions/.gitkeep
+*.wav
+*.mp4
+.DS_Store
+data/uploads/
+.pytest_cache/
